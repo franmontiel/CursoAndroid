@@ -1,0 +1,25 @@
+
+p
+@app/src/main/java/com/franmontiel/introandroid/MainActivity.java,1/b/1b265be851d54a2708de0b99947631d71a4dc283
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+?
+settings.gradle,0/5/05efc8b1657769a27696d478ded1e95f38737233
+P
+ myapplication/proguard-rules.pro,0/5/055e2ef045624afb4b34c949b4ffa981507eb3e8
+~
+Nmyapplication/src/test/java/com/franmontiel/myapplication/ExampleUnitTest.java,d/6/d6377421c3b069f4804bd2e5e3eb4edc39b31fe2
+J
+myapplication/build.gradle,8/7/8757dd6bc03199c6ed861274bfd7005e95c00614
+H
+myapplication/.gitignore,7/e/7e263844c080a2c8d3ffa4cecf9cf11dd51f6c09
+ç
+]myapplication/src/androidTest/java/com/franmontiel/myapplication/ExampleInstrumentedTest.java,0/0/0070d7ea38c3216bc60f4996120ad5b45b3a762a
+Z
+*myapplication/src/main/AndroidManifest.xml,0/b/0bbca1fce58c1574d151410dedc43bd8845e570a
+{
+Kmyapplication/src/main/java/com/franmontiel/myapplication/MainActivity.java,f/0/f0123c87d6e329bc0c6474d8fb67eeb3292e0ed6
+G
+helloworld/build.gradle,a/8/a81fd4b6247d5ae5542bbdf013c8ce92084fe3d2
+w
+Ghelloworld/src/main/java/com/franmontiel/introandroid/MainActivity.java,4/5/4574bda4325562deb7963933fc69e268b7198001

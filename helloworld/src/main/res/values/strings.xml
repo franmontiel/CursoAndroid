@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hola!</string>
+
+    <string name="hello_world">Hola Mundo</string>
+    <string name="hello_somebody">Hola %s!</string>
+
+    <!-- Main -->
+    <string name="name_hint">Introduce tu nombre</string>
+    <string name="say_hi">Salúdame</string>
+    <string name="error_no_name">No se como te llamas</string>
+
+    <!-- Surname -->
+    <string name="surname_title">Añadir apellido</string>
+    <string name="surname_hint">Introduce tu apellido</string>
+    <string name="add_surname">Añadir apellido</string>
+
+    <!-- Info -->
+    <string name="info_title">Información</string>
+    <string name="info">"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque ullamcorper elementum purus, sed vestibulum justo varius sed. Quisque nec arcu a dui malesuada imperdiet. Nulla facilisi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris dictum est tortor, et rhoncus lacus viverra sed. Vivamus nec dolor a risus tincidunt gravida ut quis nulla. Nam pretium vestibulum sapien sit amet tristique.
+
+Curabitur iaculis erat id est hendrerit, eu euismod ligula vulputate. Sed laoreet tempor mauris et facilisis. In non arcu ex. Maecenas ut quam vestibulum, viverra nibh et, rhoncus turpis. Proin nisl risus, consequat at lacinia sed, pharetra id quam. Curabitur id tortor tortor. Sed varius quis urna eu tempus. Praesent non mauris feugiat augue sagittis viverra.
+
+Sed in leo massa. In fringilla et tortor et fermentum. Nam hendrerit lacus pellentesque, iaculis quam sed, mattis nulla. Etiam sollicitudin, eros ut semper pellentesque, nulla nisi ornare urna, eget efficitur mauris sem quis nulla. Etiam vitae nisi non orci rutrum cursus vitae eget dolor. Sed et vehicula dolor. Donec placerat sit amet arcu a vulputate. Nulla a eros fringilla, posuere leo et, vulputate nisl. Quisque condimentum, ipsum in ultricies maximus, leo est porta dui, et sollicitudin velit ligula non lorem. Nulla gravida dui non dapibus imperdiet. Maecenas dignissim ligula in leo egestas volutpat. Fusce ultricies ligula quis egestas fermentum. Nulla arcu massa, scelerisque vitae quam sit amet, auctor suscipit mauris.
+
+Vestibulum maximus erat vitae tempus faucibus. Suspendisse in dui in mauris vulputate eleifend. Vivamus pretium consequat risus ut hendrerit. Vivamus id mollis dui, ac porttitor justo. Cras tristique tempus nisi congue dictum. Vestibulum volutpat quam vel odio pellentesque, nec cursus dolor venenatis. Praesent sed mi scelerisque sapien efficitur hendrerit in dictum tortor. Fusce eu vulputate mauris. Integer vel ornare lacus. Sed aliquam facilisis nibh tincidunt pharetra. Aliquam ante sapien, varius at hendrerit ut, posuere non nunc. Ut in vehicula dolor. Suspendisse tincidunt purus at magna dignissim sodales. Nunc faucibus lacus eget justo imperdiet, vel consequat odio semper. Ut non nulla nec dui fringilla suscipit id in dui. Vestibulum eget purus sed sem mattis interdum a quis libero.
+
+Maecenas pellentesque vestibulum erat, at commodo nulla ullamcorper a. Etiam sit amet faucibus metus. Proin ultricies magna at enim convallis, quis fermentum urna sollicitudin. Aenean feugiat mauris eget consequat aliquam. Donec at nibh quis quam sollicitudin sagittis. Morbi ullamcorper arcu consequat libero elementum euismod vitae vitae nibh. Sed pharetra interdum dui mattis vehicula. Nullam et leo ut libero sagittis efficitur. Donec vel pharetra massa. Nam sed orci massa. Vivamus eu metus convallis, tempor purus eget, porttitor lacus. Mauris arcu tellus, varius consectetur lorem non, scelerisque vulputate nibh. Etiam posuere tristique tellus, in aliquet lectus blandit at. Quisque imperdiet malesuada sapien, at placerat risus maximus ac. Maecenas accumsan cursus justo id facilisis. Etiam convallis velit nec felis dapibus cursus."</string>
+
+</resources>
