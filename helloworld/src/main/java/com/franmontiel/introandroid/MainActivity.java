@@ -23,8 +23,6 @@ public class MainActivity extends AppCompatActivity {
     private Button sayHi;
     private TextView helloSomeBody;
 
-    private MenuItem addSurnameItem;
-
     private String personToGreet; // Queremos guardar este dato para restaurar el estado del Activity
 
     @Override
