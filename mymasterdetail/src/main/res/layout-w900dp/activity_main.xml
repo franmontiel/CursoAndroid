@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.franmontiel.mymasterdetail.MainActivity">
+
+    <fragment
+        android:id="@+id/masterFragment"
+        android:name="com.franmontiel.mymasterdetail.MasterFragment"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        tools:layout="@layout/fragment_master" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/masterFragment"
+        android:background="#000000" />
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.franmontiel.mymasterdetail.DetailFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/divider"
+        tools:layout="@layout/fragment_detail" />
+
+</RelativeLayout>
