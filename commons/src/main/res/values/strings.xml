@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Commons</string>
+
+    <!-- Commons -->
+    <string name="please_wait">Por favor espere</string>
+    <string name="retry">Reintentar</string>
+    <string name="install">Instalar</string>
+    <string name="update">Actualizar</string>
+    <string name="activate">Activar</string>
+    <string name="share">Compartir</string>
+
+    <!-- Errors and Warnings -->
+    <string name="generic_error">Ha ocurrido un error</string>
+    <string name="server_issues">Estamos teniendo problemas temporales</string>
+    <string name="check_network">Revise su conexión</string>
+    <string name="intent_error">No hay ninguna APP disponible para realizar la acción</string>
+    <string name="fill_mandatory_fields">Rellene los campos obligatorios</string>
+
+</resources>
