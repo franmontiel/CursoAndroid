@@ -1,1 +1,1 @@
-include ':helloworld'
+include ':helloworld', ':todolist', ':templatedmasterdetail', ':commons', ':mymasterdetail', ':mapsample', ':navigationdrawersample'

@@ -11,9 +11,6 @@ import android.widget.ListView;
 
 import com.franmontiel.todolist.entities.Task;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
@@ -57,7 +54,7 @@ public class TaskListFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        adapter = new TaskAdapter(generateFakeTasks());
+        adapter = new TaskAdapter(TaskGenerator.generateFakeTasks());
         list.setAdapter(adapter);
 
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
@@ -72,44 +69,6 @@ public class TaskListFragment extends Fragment {
 
     public void setOnTaskSelectedListener(OnTaskSelectedListener onTaskSelectedListener) {
         this.onTaskSelectedListener = onTaskSelectedListener;
-    }
-
-    private static List<Task> generateFakeTasks() {
-        List<Task> tasks = new ArrayList<>();
-
-        int i = 1;
-        tasks.add(new Task("Sacar al perro", "", true));
-        tasks.add(new Task("Comprar", "Que no se me olvide comprar Sal", true));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Lavar los platos", "", true));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Lavar la ropa", "", true));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Sacar la basura", "", true));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-        tasks.add(new Task("Task " + i++));
-
-        return tasks;
     }
 
 }
