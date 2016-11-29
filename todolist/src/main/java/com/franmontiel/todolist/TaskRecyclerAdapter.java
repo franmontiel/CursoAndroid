@@ -46,6 +46,9 @@ public class TaskRecyclerAdapter extends BaseAdapter<TaskRecyclerAdapter.TaskVie
 
         holder.title.setText(task.getName());
         holder.description.setText(task.getDescription());
+
+        holder.description.setVisibility(task.getDescription().isEmpty() ? View.GONE : View.VISIBLE);
+
     }
 
 
