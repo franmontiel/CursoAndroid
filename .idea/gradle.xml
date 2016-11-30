@@ -16,6 +16,7 @@
             <option value="$PROJECT_DIR$/navigationdrawersample" />
             <option value="$PROJECT_DIR$/templatedmasterdetail" />
             <option value="$PROJECT_DIR$/todolist" />
+            <option value="$PROJECT_DIR$/todolist2" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

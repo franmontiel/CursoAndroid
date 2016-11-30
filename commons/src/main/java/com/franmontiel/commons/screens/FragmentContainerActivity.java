@@ -13,7 +13,9 @@ public abstract class FragmentContainerActivity extends BaseActivity {
 
         if (getSupportFragmentManager().findFragmentById(getFragmentContainer()) == null) {
             Fragment fragment = instantiateFragment();
-            fragment.setArguments(getIntent().getExtras());
+            if (getIntent().getExtras() != null)
+                fragment.setArguments(getIntent().getExtras());
+
             getSupportFragmentManager().beginTransaction().add(getFragmentContainer(), fragment).commit();
         }
     }
