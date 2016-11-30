@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CursoAndroid.iml" filepath="$PROJECT_DIR$/CursoAndroid.iml" />
       <module fileurl="file://$PROJECT_DIR$/commons/commons.iml" filepath="$PROJECT_DIR$/commons/commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fakethreading/fakethreading.iml" filepath="$PROJECT_DIR$/fakethreading/fakethreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapsample/mapsample.iml" filepath="$PROJECT_DIR$/mapsample/mapsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymasterdetail/mymasterdetail.iml" filepath="$PROJECT_DIR$/mymasterdetail/mymasterdetail.iml" />
