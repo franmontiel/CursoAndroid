@@ -3,7 +3,8 @@ package com.franmontiel.todolist;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.DividerItemDecoration;
+import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -50,12 +51,12 @@ public class TaskRecyclerFragment extends Fragment {
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        list.setLayoutManager(new LinearLayoutManager(getContext()));
+//        list.setLayoutManager(new LinearLayoutManager(getContext()));
 //        list.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
-//        list.setLayoutManager(new GridLayoutManager(getContext(), 2));
+        list.setLayoutManager(new GridLayoutManager(getContext(), 2));
 
-//        list.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
-//        list.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.HORIZONTAL));
+        list.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.VERTICAL));
+        list.addItemDecoration(new DividerItemDecoration(getContext(), DividerItemDecoration.HORIZONTAL));
 
         adapter = new TaskRecyclerAdapter(getContext());
         adapter.setItems(TaskGenerator.generateFakeTasks());

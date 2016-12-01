@@ -23,15 +23,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void showMaster(boolean isRestoringView) {
-        TaskListFragment taskListFragment;
+        TaskRecyclerFragment taskListFragment;
 
         if (!isRestoringView) {
-            taskListFragment = TaskListFragment.newInstance();
+            taskListFragment = TaskRecyclerFragment.newInstance();
 
             getSupportFragmentManager().beginTransaction()
                     .add(R.id.masterContainer, taskListFragment).commit();
         } else {
-            taskListFragment = (TaskListFragment) getSupportFragmentManager().findFragmentById(R.id.masterContainer);
+            taskListFragment = (TaskRecyclerFragment) getSupportFragmentManager().findFragmentById(R.id.masterContainer);
         }
 
         if (taskListFragment != null)

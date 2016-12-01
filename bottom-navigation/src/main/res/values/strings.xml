@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">BottomNavigation</string>
+
+    <string name="tab_1">Números</string>
+    <string name="tab_2">Letras</string>
+    <string name="tab_3">Nada</string>
+</resources>

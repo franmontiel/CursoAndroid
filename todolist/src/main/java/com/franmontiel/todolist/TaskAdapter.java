@@ -24,14 +24,19 @@ public class TaskAdapter extends BaseAdapter {
         this.items = items;
     }
 
+    public void setItems(List<Task> items) {
+        this.items = items;
+        notifyDataSetChanged();
+    }
+
     @Override
     public int getCount() {
         return items.size();
     }
 
     @Override
-    public Object getItem(int i) {
-        return items.get(i);
+    public Object getItem(int position) {
+        return items.get(position);
     }
 
     @Override
@@ -47,7 +52,7 @@ public class TaskAdapter extends BaseAdapter {
 
             holder = new ViewHolder();
 
-            holder.title = ButterKnife.findById(convertView, R.id.title);
+            holder.title = (TextView) convertView.findViewById(R.id.title);
             holder.description = ButterKnife.findById(convertView, R.id.description);
 
             convertView.setTag(holder);
@@ -65,6 +70,11 @@ public class TaskAdapter extends BaseAdapter {
         } else {
             holder.description.setVisibility(View.VISIBLE);
         }
+
+//        int colorResource = task.isImportant() ? R.color.grey : android.R.color.white;
+//
+//        if (task.isImportant())
+//            convertView.setBackgroundColor(ContextCompat.getColor(parent.getContext(), colorResource));
 
         return convertView;
     }

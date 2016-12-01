@@ -8,12 +8,16 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activity-navigation" />
+            <option value="$PROJECT_DIR$/bottom-navigation" />
             <option value="$PROJECT_DIR$/commons" />
             <option value="$PROJECT_DIR$/fakethreading" />
             <option value="$PROJECT_DIR$/helloworld" />
             <option value="$PROJECT_DIR$/mapsample" />
             <option value="$PROJECT_DIR$/mymasterdetail" />
             <option value="$PROJECT_DIR$/navigationdrawersample" />
+            <option value="$PROJECT_DIR$/networkcalls" />
+            <option value="$PROJECT_DIR$/tabssample" />
             <option value="$PROJECT_DIR$/templatedmasterdetail" />
             <option value="$PROJECT_DIR$/todolist" />
             <option value="$PROJECT_DIR$/todolist2" />

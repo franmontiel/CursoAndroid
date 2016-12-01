@@ -11,7 +11,6 @@ import com.j256.ormlite.table.DatabaseTable;
  */
 
 @DatabaseTable(tableName = "Task")
-
 public class Task implements Parcelable {
     @DatabaseField(generatedId = true, columnName = "_id")
     private int id;

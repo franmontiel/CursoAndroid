@@ -77,6 +77,7 @@ public class MainActivity extends AppCompatActivity {
                     e.printStackTrace();
                 }
 
+
                 return true;
             }
 
@@ -128,11 +129,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    private void intentServiceWithBus(){
+    private void intentServiceWithBus() {
         progressDialog = ProgressDialog.show(this, null, "Espere...");
 
         // Podriamos pasarle datos en el intent
-        Intent intent = new Intent(getApplicationContext(),MyIntentService.class);
+        Intent intent = new Intent(getApplicationContext(), MyIntentService.class);
         startService(intent);
     }
 
