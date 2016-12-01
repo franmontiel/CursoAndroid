@@ -2,6 +2,7 @@ package com.franmontiel.networkcalls;
 
 import android.app.Application;
 
+import com.facebook.stetho.Stetho;
 import com.franmontiel.networkcalls.okhttp.OkHttpProvider;
 import com.franmontiel.networkcalls.retrofit.RetrofitProvider;
 
@@ -17,5 +18,7 @@ public class BaseApplication extends Application {
         OkHttpProvider.initialize(getApplicationContext());
 
         RetrofitProvider.initialize(OkHttpProvider.getClient(), "https://jsonplaceholder.typicode.com/");
+
+        Stetho.initializeWithDefaults(getApplicationContext());
     }
 }

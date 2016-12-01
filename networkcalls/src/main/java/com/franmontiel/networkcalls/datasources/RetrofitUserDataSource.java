@@ -32,13 +32,16 @@ public class RetrofitUserDataSource {
                     @Override
                     public void onResponse(Call<List<User>> call, Response<List<User>> response) {
                         Log.d("Retrofit", "response received");
-
-                        BusProvider.getInstance().post(new UsersEvent(response.body()));
+                        if (response.code() == 200) {
+                            // ESTAMOS EN EL UI THREAD
+                            BusProvider.getInstance().post(new UsersEvent(response.body()));
+                        }
                     }
 
                     @Override
                     public void onFailure(Call<List<User>> call, Throwable t) {
                         Log.d("Retrofit", "connectivity failure");
+                        // Avisar del error al usuario
                     }
                 });
     }

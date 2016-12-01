@@ -50,6 +50,8 @@ public class OkHttpPhotoDataSource {
                         if (status == 200) {
                             final List<Photo> photos = parsePhotos(response.body().string());
 
+
+                            // TENED EN CUENTA QUE NO ESTAMOS EN EL UI THREAD!!!
                             runOnUiThread(new Runnable() {
                                 @Override
                                 public void run() {

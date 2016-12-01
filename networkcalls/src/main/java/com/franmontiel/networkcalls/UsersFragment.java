@@ -6,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -49,6 +50,14 @@ public class UsersFragment extends Fragment {
         list.setAdapter(adapter);
 
         retrofitUserDataSource = new RetrofitUserDataSource();
+
+        list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                User user = (User) list.getItemAtPosition(i);
+                WebViewActivity.open(UsersFragment.this, user.getWebsite(), user.getName());
+            }
+        });
 
     }
 
