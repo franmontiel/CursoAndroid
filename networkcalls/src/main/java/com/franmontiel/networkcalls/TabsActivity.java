@@ -53,7 +53,7 @@ public class TabsActivity extends AppCompatActivity {
             if (position == 0)
                 return PhotosFragment.newInstance();
             else
-                return PhotosFragment.newInstance();
+                return UsersFragment.newInstance();
         }
 
         @Override

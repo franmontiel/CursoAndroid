@@ -6,11 +6,11 @@ package com.franmontiel.networkcalls.entities;
 
 public class Photo {
 
-    int id;
-    int albumId;
-    String title;
-    String url;
-    String thumbnailUrl;
+    private int id;
+    private int albumId;
+    private String title;
+    private String url;
+    private String thumbnailUrl;
 
     public int getId() {
         return id;

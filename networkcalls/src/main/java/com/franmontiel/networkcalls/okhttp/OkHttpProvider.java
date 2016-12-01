@@ -26,7 +26,7 @@ public class OkHttpProvider {
         // No instances.
     }
 
-    public static void initializeClient(Context context) {
+    public static void initialize(Context context) {
         OkHttpClient.Builder builder = new OkHttpClient.Builder();
 
         // Especificando cache
