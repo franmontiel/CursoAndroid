@@ -1,1 +1,1 @@
-include ':helloworld', ':todolist', ':templatedmasterdetail', ':commons', ':mymasterdetail', ':mapsample', ':navigationdrawersample', ':fakethreading', ':todolist2', ':tabssample', ':networkcalls', ':bottom-navigation', ':activity-navigation'
+include ':helloworld', ':todolist', ':templatedmasterdetail', ':commons', ':mymasterdetail', ':mapsample', ':navigationdrawersample', ':fakethreading', ':todolist2', ':tabssample', ':networkcalls', ':bottom-navigation', ':activity-navigation', ':imageintent'
