@@ -5,7 +5,7 @@ android {
     buildToolsVersion "25.0.0"
 
     defaultConfig {
-        applicationId "com.franmontiel.mapsample"
+        applicationId "com.franmontiel.locationsample"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
@@ -28,8 +28,8 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.0.1'
-    compile 'com.google.android.gms:play-services-maps:10.0.1'
+    testCompile 'junit:junit:4.12'
+
     compile 'com.google.android.gms:play-services-location:10.0.1'
 
-    testCompile 'junit:junit:4.12'
 }

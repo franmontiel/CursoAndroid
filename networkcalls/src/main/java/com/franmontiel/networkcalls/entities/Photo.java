@@ -20,6 +20,7 @@ public class Photo {
         this.id = id;
     }
 
+
     public int getAlbumId() {
         return albumId;
     }

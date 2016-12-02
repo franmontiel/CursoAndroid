@@ -41,7 +41,7 @@ public class PhotoAdapter extends BaseAdapter<Photo> {
 
         Photo photo = getItem(position);
 
-//        Picasso.with(parent.getContext()).load(photo.getThumbnailUrl()).noFade().into(holder.thumbnail);
+//        Picasso.with(parent.getContext()).load(photo.getThumbnailUrl()).into(holder.thumbnail);
         Glide.with(parent.getContext()).load(photo.getThumbnailUrl()).into(holder.thumbnail);
 
         holder.title.setText(photo.getTitle());

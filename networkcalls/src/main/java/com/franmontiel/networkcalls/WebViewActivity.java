@@ -77,6 +77,9 @@ public class WebViewActivity extends AppCompatActivity {
         if (!url.contains("http")) {
             url = "http://" + url;
         }
+
+
+
         webView.loadUrl(url);
 
     }

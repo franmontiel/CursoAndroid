@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/fakethreading/fakethreading.iml" filepath="$PROJECT_DIR$/fakethreading/fakethreading.iml" />
       <module fileurl="file://$PROJECT_DIR$/helloworld/helloworld.iml" filepath="$PROJECT_DIR$/helloworld/helloworld.iml" />
       <module fileurl="file://$PROJECT_DIR$/imageintent/imageintent.iml" filepath="$PROJECT_DIR$/imageintent/imageintent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/locationsample/locationsample.iml" filepath="$PROJECT_DIR$/locationsample/locationsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/mapsample/mapsample.iml" filepath="$PROJECT_DIR$/mapsample/mapsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/mymasterdetail/mymasterdetail.iml" filepath="$PROJECT_DIR$/mymasterdetail/mymasterdetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationdrawersample/navigationdrawersample.iml" filepath="$PROJECT_DIR$/navigationdrawersample/navigationdrawersample.iml" />

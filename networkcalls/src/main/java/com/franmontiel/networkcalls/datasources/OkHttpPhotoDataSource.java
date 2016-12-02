@@ -65,7 +65,7 @@ public class OkHttpPhotoDataSource {
                 });
     }
 
-    private List<Photo> parsePhotos(String response) {
+    private List<Photo> parsePhotos(String response){
         Gson gson = new Gson();
         return gson.fromJson(response, new TypeToken<ArrayList<Photo>>() {
         }.getType());

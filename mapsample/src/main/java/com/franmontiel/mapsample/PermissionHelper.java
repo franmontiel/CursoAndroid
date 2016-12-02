@@ -1,10 +1,9 @@
-package com.franmontiel.commons.permission;
+package com.franmontiel.mapsample;
 
 import android.app.Activity;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.support.v4.app.ActivityCompat;
-import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 
 /**
@@ -12,8 +11,8 @@ import android.support.v4.content.ContextCompat;
  */
 public class PermissionHelper {
 
-    public static void requestPermissions(Fragment fragment, int requestCode, String... permissions) {
-        fragment.requestPermissions(permissions, requestCode);
+    public static void requestPermissions(Activity activity, int requestCode, String... permissions) {
+        ActivityCompat.requestPermissions(activity, permissions, requestCode);
     }
 
     public static boolean hasAllPermissions(Context context, String... permissions) {
@@ -50,5 +49,6 @@ public class PermissionHelper {
             allPermissionsGranted &= grantResult == PackageManager.PERMISSION_GRANTED;
         }
         return allPermissionsGranted;
+
     }
 }

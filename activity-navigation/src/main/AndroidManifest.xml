@@ -33,7 +33,6 @@
         <activity
             android:name=".Activity3"
             android:label="Activity3"
-            android:launchMode="singleTop"
             android:parentActivityName=".Activity0">
             <!-- Parent activity meta-data to support 4.0 and lower -->
             <meta-data

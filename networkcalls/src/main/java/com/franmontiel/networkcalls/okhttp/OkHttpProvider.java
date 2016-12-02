@@ -4,6 +4,7 @@ import android.content.Context;
 import android.os.Build;
 import android.util.Log;
 
+import com.facebook.stetho.okhttp3.BuildConfig;
 import com.facebook.stetho.okhttp3.StethoInterceptor;
 
 import java.io.File;
@@ -43,8 +44,9 @@ public class OkHttpProvider {
         // Añadiendo logging interceptor para visualizar las llamadas en el log
         builder.addInterceptor(createLoggingInterceptor());
 
-        // Añadiendo stetho para debugging en Chrome
-        builder.addNetworkInterceptor(new StethoInterceptor());
+        if (BuildConfig.DEBUG)
+            // Añadiendo stetho para debugging en Chrome
+            builder.addNetworkInterceptor(new StethoInterceptor());
 
         // Timeouts
         builder.connectTimeout(15, TimeUnit.SECONDS)

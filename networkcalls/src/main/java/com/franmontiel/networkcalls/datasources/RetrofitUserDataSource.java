@@ -50,5 +50,6 @@ public class RetrofitUserDataSource {
     interface UserService {
         @GET("users")
         Call<List<User>> getUsers();
+
     }
 }

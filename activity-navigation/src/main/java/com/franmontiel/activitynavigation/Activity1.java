@@ -14,6 +14,7 @@ public class Activity1 extends AppCompatActivity {
         setContentView(R.layout.activity_1);
         butterknife.ButterKnife.bind(this);
 
+        // Muestra la flecha
         getSupportActionBar().setHomeButtonEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
     }
