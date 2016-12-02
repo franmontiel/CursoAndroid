@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "173551399362",
+    "firebase_url": "https://sample-934da.firebaseio.com",
+    "project_id": "sample-934da",
+    "storage_bucket": "sample-934da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:173551399362:android:cebc8ecc341c508a",
+        "android_client_info": {
+          "package_name": "com.franmontiel.pushsample"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "173551399362-ciu9a45bml78eor0jrbgk0egve90j401.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVult6wm6mJzc0S4uIItwWauJl6zGHruI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
