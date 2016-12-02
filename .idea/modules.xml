@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/mymasterdetail/mymasterdetail.iml" filepath="$PROJECT_DIR$/mymasterdetail/mymasterdetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/navigationdrawersample/navigationdrawersample.iml" filepath="$PROJECT_DIR$/navigationdrawersample/navigationdrawersample.iml" />
       <module fileurl="file://$PROJECT_DIR$/networkcalls/networkcalls.iml" filepath="$PROJECT_DIR$/networkcalls/networkcalls.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pushsample/pushsample.iml" filepath="$PROJECT_DIR$/pushsample/pushsample.iml" />
       <module fileurl="file://$PROJECT_DIR$/tabssample/tabssample.iml" filepath="$PROJECT_DIR$/tabssample/tabssample.iml" />
       <module fileurl="file://$PROJECT_DIR$/templatedmasterdetail/templatedmasterdetail.iml" filepath="$PROJECT_DIR$/templatedmasterdetail/templatedmasterdetail.iml" />
       <module fileurl="file://$PROJECT_DIR$/todolist/todolist.iml" filepath="$PROJECT_DIR$/todolist/todolist.iml" />
