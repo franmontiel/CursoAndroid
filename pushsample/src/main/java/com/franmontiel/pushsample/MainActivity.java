@@ -24,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
         Log.d("FCM", "token: " + token);
 
         FirebaseMessaging.getInstance().subscribeToTopic("push_sample");
-        FirebaseMessaging.getInstance().unsubscribeFromTopic("promos_en");
-        FirebaseMessaging.getInstance().unsubscribeFromTopic("promos_fr");
         showIntentDetails();
     }
 
