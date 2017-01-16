@@ -23,12 +23,17 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     public void onMessageReceived(RemoteMessage remoteMessage) {
         super.onMessageReceived(remoteMessage);
 
-        Log.d("FCM", "Message Received");
+        sendCustomNotification(remoteMessage);
+    }
 
+    private void sendCustomNotification(RemoteMessage remoteMessage) {
+        Intent notificationActivityIntent = new Intent(getApplicationContext(), NotificationOpenedActivity.class);
+        notificationActivityIntent.putExtra("id", remoteMessage.getData().get("id"));
 
         TaskStackBuilder stackBuilder = TaskStackBuilder.create(getApplicationContext());
+
         stackBuilder.addNextIntent(new Intent(getApplicationContext(), MainActivity.class))
-                .addNextIntent(new Intent(getApplicationContext(), NotificationOpenedActivity.class));
+                .addNextIntent(notificationActivityIntent);
 
         PendingIntent contentIntent = stackBuilder.getPendingIntent(0,
                 PendingIntent.FLAG_UPDATE_CURRENT | PendingIntent.FLAG_ONE_SHOT);
@@ -36,9 +41,8 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.mipmap.ic_launcher)
                 .setColor(ContextCompat.getColor(getApplicationContext(), R.color.colorAccent))
-//                .setTicker(getString(R.string.app_name))
-                .setContentTitle(getString(R.string.app_name))
-                .setContentText("Contenido de la notificación")
+                .setContentTitle(remoteMessage.getNotification().getTitle())
+                .setContentText(remoteMessage.getNotification().getBody())
                 .setAutoCancel(true)
                 .setOnlyAlertOnce(true)
                 .setContentIntent(contentIntent)

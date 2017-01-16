@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">PushSample</string>
+    <string name="title">Localized title</string>
+    <string name="body">Localized content</string>
+
+
+    <string name="main_activity">Main Activity</string>
+    <string name="notification_opened_activity">Notification Opened Activity</string>
 </resources>
